@@ -33,7 +33,7 @@ export const getWeatherData = async (lat, lng) => {
     const { data } = await axios.get('https://weatherapi-com.p.rapidapi.com/search.json', {
       params: {q: `${lat}, ${lng}`},
       headers: {
-        'X-RapidAPI-Key': '4c8c93f8c1msh07e12938448283ep10640fjsna107df9a9696',
+        'X-RapidAPI-Key': 'your api key',
         'X-RapidAPI-Host': 'weatherapi-com.p.rapidapi.com'
       }
     });
