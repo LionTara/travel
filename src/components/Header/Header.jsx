@@ -23,7 +23,7 @@ const Header = ({ setCoordinates }) => {
         <AppBar position="static">
             <Toolbar className={classes.toolbar}>
                 <Typography variant="h5" className={classes.title}>
-                    Travel
+                    Attractions' Magnet
                 </Typography>
                 <Box display="flex">
                     <Typography variant="h5" className={classes.title}>
